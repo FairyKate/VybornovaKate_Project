@@ -1,6 +1,5 @@
 package com.it.pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -13,11 +12,11 @@ public class DashBoardPage extends BasePage{
         return lbUserEmail.getText();
     }
 
-    @FindBy(xpath = "//a[@href='/compose/1335698081']")
-    private WebElement btnNewMsg;
+    @FindBy(xpath = "//a[.='Создать письмо']")
+    private WebElement lnkNewMsg;
 
-    public String btnNewMsg() {
-        btnNewMsg.click();
+    public void getLnkNewMsg() {
+        lnkNewMsg.getLocation().getClass();
     }
 
  /*   @FindBy(xpath = "//)
