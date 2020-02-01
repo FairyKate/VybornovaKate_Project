@@ -5,19 +5,20 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
-//remote driver сделать!!!
+
 public class MyDriver implements WebDriver {
     WebDriver driver;
     public WebDriverWait BASE_DRIVER_WAIT;
-
-    public static MyDriver getMyDriver(){
+    public static MyDriver getMyDriver() {
         return new MyDriver();
     }
+
     private MyDriver() {
-       driver = DriverFactory.getDriver();
-       BASE_DRIVER_WAIT = new WebDriverWait(driver, 1000);
+        driver = DriverFactory.getDriver();
+        BASE_DRIVER_WAIT= new WebDriverWait(driver, 10);
     }
 
     @Override
@@ -27,12 +28,12 @@ public class MyDriver implements WebDriver {
 
     @Override
     public String getCurrentUrl() {
-        return null;
+        return driver.getCurrentUrl();
     }
 
     @Override
     public String getTitle() {
-        return driver.getCurrentUrl();
+        return driver.getTitle();
     }
 
     @Override
@@ -85,42 +86,25 @@ public class MyDriver implements WebDriver {
         return manage();
     }
 
-    /**
-     * Scroll Up
-     */
+    /*** Scroll Up */
     public void scrollUp() {
         ((JavascriptExecutor) driver).executeScript("window.scrollTo(0,0)");
-
     }
+
     /**
      * Scroll Down
      */
     public void scrollDown() {
         ((JavascriptExecutor) driver).executeScript("window.scrollTo(0,document.body.scrollHeight)");
-
-    }
-
-    /* Scroll  to Element
-     * @param element
-     */
-    public void scrollToElement(WebElement element) {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-        try {
-            Thread.sleep(500);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 
     public boolean isElementPresent(By locator) {
         boolean result = false;
-        driver.manage().timeouts().
-                implicitlyWait(0, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
         try {
             List<WebElement> list = driver.findElements(locator);
             driver.manage().timeouts().
-                    implicitlyWait(Constants.BASE_IMPLICITY_WAIT, TimeUnit.SECONDS);
-
+                    implicitlyWait(Constants.BASE_IMPLICITLY_WAIT, TimeUnit.SECONDS);
             result = list.size() != 0 && list.get(0).isDisplayed();
         } catch (StaleElementReferenceException | NoSuchElementException e) {
             //NOP
@@ -128,4 +112,5 @@ public class MyDriver implements WebDriver {
         return result;
     }
 
-}//end of file
+
+}//end file

@@ -10,8 +10,9 @@ public class App {
     public LoginHelper login;
 
     public App() {
-        common = new CommonHelper();
+        common= new CommonHelper();
         dashBoard = new DashBoardHelper();
-        login = new LoginHelper();
+        login= new LoginHelper();
+
     }
 }

@@ -5,13 +5,13 @@ import com.it.users.User;
 import com.it.users.UserFactory;
 import org.testng.annotations.AfterSuite;
 
-public abstract class BaseTest {
-    static protected App app = new App();
-    static protected User validUser = UserFactory.getValidUser();
+public  abstract  class BaseTest {
+    static protected App app=new App();
+    static  protected User validUser= UserFactory.getValidUser();
 
     @AfterSuite
-    public void tearDownSuite(){
+    protected void tearDownSuite() {
         app.common.stopApp();
-    }
 
+    }
 }

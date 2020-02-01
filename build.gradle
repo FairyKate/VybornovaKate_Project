@@ -2,28 +2,54 @@ plugins {
     id 'java'
 }
 
-group 'com.it'
+group 'org.example'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
 repositories {
-    mavenCentral()
+    jcenter()
+}
+
+configurations {
+    agent
 }
 
 dependencies {
+    agent "org.aspectj:aspectjweaver:1.8.0"
+    testCompile "ru.yandex.qatools.allure:allure-testng-adaptor:1.4.0"
+
+    // https://mvnrepository.com/artifact/org.testng/testng
     testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
+// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server
     compile group: 'org.seleniumhq.selenium', name: 'selenium-server', version: '3.141.59'
+    // https://mvnrepository.com/artifact/log4j/log4j
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl
+    testCompile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.13.0'
+
+
 }
 
-test() {
-   useTestNG {
-        suites "\\src\\test\\resources\\testNg.xml"
+test.doFirst {
+    jvmArgs "-javaagent:${configurations.agent.singleFile}"
+}
+
+
+/*test(){
+    useTestNG {
+        suites "src\\test\\resources\\testNg.xml"
+    }
+}*/
+task fireFox(type:Test){
+    systemProperty "driver","firefox"
+    useTestNG {
+        suites "src\\test\\resources\\testNg.xml"
     }
 }
-    task fireFox(type:Test) {
-        systemProperty "driver", "firefox"
-        useTestNG {
-            suites "\\src\\test\\resources\\testNg.xml"
-        }
+task chrome(type:Test){
+    systemProperty "driver","chrome"
+    useTestNG {
+        suites "src\\test\\resources\\testNg.xml"
     }
+}
