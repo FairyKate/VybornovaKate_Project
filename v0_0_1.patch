@@ -1,0 +1,122 @@
+Index: out/test/resources/log4j.properties
+===================================================================
+--- out/test/resources/log4j.properties	(revision 03a0eb3aed6848dadd96ca6351e1a1ffe344e5b7)
++++ out/test/resources/log4j.properties	(revision 03a0eb3aed6848dadd96ca6351e1a1ffe344e5b7)
+@@ -1,4 +0,0 @@
+-log4j.rootCategory=INFO, console
+-log4j.appender.console=org.apache.log4j.ConsoleAppender
+-log4j.appender.console.layout=org.apache.log4j.PatternLayout
+-log4j.appender.console.layout.ConversionPattern= %d %p %c{1}: %m%n
+Index: out/test/resources/testNG.xml
+===================================================================
+--- out/test/resources/testNG.xml	(revision 03a0eb3aed6848dadd96ca6351e1a1ffe344e5b7)
++++ out/test/resources/testNG.xml	(revision 03a0eb3aed6848dadd96ca6351e1a1ffe344e5b7)
+@@ -1,11 +0,0 @@
+-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+-
+-<suite name="Suite1" verbose="1" >
+-    <test name="Nopackage" >
+-        <classes>
+-            <class name="com.it.tests.MyTest" />
+-        </classes>
+-    </test>
+-
+-
+-</suite>
+Index: out/test/resources/user.properties
+===================================================================
+--- out/test/resources/user.properties	(revision 03a0eb3aed6848dadd96ca6351e1a1ffe344e5b7)
++++ out/test/resources/user.properties	(revision 03a0eb3aed6848dadd96ca6351e1a1ffe344e5b7)
+@@ -1,37 +0,0 @@
+-# Valid User
+-username=ittest2
+-password=337774a
+-email=ittest2@i.ua
+-
+-
+-
+-
+-
+-
+-
+-
+-#01.02.2020:
+-#class Actions()
+-#//click on current position: new Actions(driver).click().build().perform();
+-#//click on element btn:
+-#//right mouse button: contextClick(WebElement onElement)
+-#(x,y)=(0,0) => ������ ��������� �� ������ �������� ���� �������. �.�. 120,80 = �� 120 ������ �� 80 ����.
+-#
+-#
+-#Log4j - ������� ����������� ��������� � �����.
+-# http://habrahabr.ru/post/130195/
+-# http://www.skipy.ru/useful/logging.html
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 03a0eb3aed6848dadd96ca6351e1a1ffe344e5b7)
++++ .idea/workspace.xml	(date 1580633273559)
+@@ -2,10 +2,9 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="07ba1ecb-5c18-4b80-921b-aa8b0d233938" name="Default Changelist" comment="">
+-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/test/resources/log4j.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/test/resources/testNG.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/test/resources/user.properties" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -305,10 +304,10 @@
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+     <state x="250" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580594278178" />
+-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1580631845341">
++    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1580632884449">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580631845341" />
++    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580632884449" />
+     <state x="451" y="244" key="Github.CreatePullRequestDialog" timestamp="1580631907501">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+@@ -353,10 +352,18 @@
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580510254759" />
+-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1580594309004">
++    <state x="334" y="72" key="VCS.ChangeListViewerDialog" timestamp="1580633214171">
++      <screen x="0" y="0" width="1366" height="728" />
++    </state>
++    <state x="334" y="72" key="VCS.ChangeListViewerDialog/0.0.1366.728@0.0.1366.728" timestamp="1580633214171" />
++    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1580632933961">
++      <screen x="0" y="0" width="1366" height="728" />
++    </state>
++    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580632933961" />
++    <state x="388" y="244" key="git4idea.rebase.GitRebaseDialog" timestamp="1580633220439">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580594309004" />
++    <state x="388" y="244" key="git4idea.rebase.GitRebaseDialog/0.0.1366.728@0.0.1366.728" timestamp="1580633220439" />
+     <state x="65" y="0" key="new project wizard" timestamp="1580547880840">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ba1ecb-5c18-4b80-921b-aa8b0d233938" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/test/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/testNG.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/user.properties" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/v0_0_1.patch" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +68,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="FairyKate" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="VybornovaKate_Project" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -259,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580594290921</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="v0.0.1">
+      <created>1580633313926</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580633313926</updated>
+    </task>
+    <task id="LOCAL-00007" summary="v0.0.1">
+      <created>1580633336308</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580633336308</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,10 +297,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="v0.0.1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="26" key="#Notifications" timestamp="1580543759600">
+    <state x="275" y="26" key="#Notifications" timestamp="1580633346845">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="26" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1580543759600" />
+    <state x="275" y="26" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1580633346845" />
     <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579559179726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -300,18 +317,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="434" y="216" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1580542820608" />
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1580633313942">
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1580633332583">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580633313942" />
-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1580632884449">
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580633332583" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1580634444624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580632884449" />
-    <state x="451" y="244" key="Github.CreatePullRequestDialog" timestamp="1580631907501">
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580634444624" />
+    <state x="451" y="244" key="Github.CreatePullRequestDialog" timestamp="1580633397600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="451" y="244" key="Github.CreatePullRequestDialog/0.0.1366.728@0.0.1366.728" timestamp="1580631907501" />
+    <state x="451" y="244" key="Github.CreatePullRequestDialog/0.0.1366.728@0.0.1366.728" timestamp="1580633397600" />
     <state x="528" y="263" key="Github.ShareDialog" timestamp="1580594723492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
