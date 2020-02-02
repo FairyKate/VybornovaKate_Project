@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ba1ecb-5c18-4b80-921b-aa8b0d233938" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/testNG.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/user.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,14 +300,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="434" y="216" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1580542820608" />
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1580594278178">
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1580633313942">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580594278178" />
-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1580631845341">
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580633313942" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1580632884449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580631845341" />
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580632884449" />
     <state x="451" y="244" key="Github.CreatePullRequestDialog" timestamp="1580631907501">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -353,10 +352,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580510254759" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1580594309004">
+    <state x="334" y="72" key="VCS.ChangeListViewerDialog" timestamp="1580633214171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580594309004" />
+    <state x="334" y="72" key="VCS.ChangeListViewerDialog/0.0.1366.728@0.0.1366.728" timestamp="1580633214171" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1580632933961">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580632933961" />
+    <state x="388" y="244" key="git4idea.rebase.GitRebaseDialog" timestamp="1580633220439">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="388" y="244" key="git4idea.rebase.GitRebaseDialog/0.0.1366.728@0.0.1366.728" timestamp="1580633220439" />
     <state x="65" y="0" key="new project wizard" timestamp="1580547880840">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
