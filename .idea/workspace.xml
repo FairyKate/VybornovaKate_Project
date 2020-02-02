@@ -2,54 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ba1ecb-5c18-4b80-921b-aa8b0d233938" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/it/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/it/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/it/common/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/it/common/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/it/driver/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/it/driver/DriverFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/it/driver/MyDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/it/driver/MyDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/it/helpers/LoginHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/it/helpers/LoginHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/it/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/it/pages/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/it/pages/DashBoardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/it/pages/DashBoardPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/it/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/it/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/it/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/it/tests/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/it/tests/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/it/tests/MyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/it/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/it/users/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/it/users/UserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/it/users/UserFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/user.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/common/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/driver/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/driver/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/driver/MyDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/driver/MyDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/helpers/CommonHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/helpers/CommonHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/helpers/DashBoardHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/helpers/DashBoardHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/helpers/LoginHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/helpers/LoginHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/pages/DashBoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/pages/DashBoardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/tests/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/tests/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/users/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/users/UserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/users/UserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/user.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580545252676</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v0.0.1">
+      <created>1580594290921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580594290921</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,30 +301,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="434" y="216" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1580542820608" />
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1580545247875">
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1580594278178">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580545247875" />
-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1580543599134">
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580594278178" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1580631845341">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580543599134" />
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1580594020050">
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580631845341" />
+    <state x="451" y="244" key="Github.CreatePullRequestDialog" timestamp="1580631907501">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580594020050" />
-    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1580594020046">
+    <state x="451" y="244" key="Github.CreatePullRequestDialog/0.0.1366.728@0.0.1366.728" timestamp="1580631907501" />
+    <state x="528" y="263" key="Github.ShareDialog" timestamp="1580594723492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580594020046" />
-    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1580594020043">
+    <state x="528" y="263" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1580594723492" />
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1580631590747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580594020043" />
-    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1580594020048">
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580631590747" />
+    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1580631590745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580594020048" />
+    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580631590745" />
+    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1580631590745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580631590745" />
+    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1580631590746">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580631590746" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1580542824264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -382,10 +353,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580510254759" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1580545267813">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1580594309004">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580545267813" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580594309004" />
     <state x="65" y="0" key="new project wizard" timestamp="1580547880840">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
